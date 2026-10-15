@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="src/ExcelImporter/ExcelImporter.csproj" />
+  <Project Path="tests/ExcelImporter.Tests.csproj" />
+</Solution>

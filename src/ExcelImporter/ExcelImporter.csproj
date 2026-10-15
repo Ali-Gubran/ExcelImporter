@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Version>1.0.0</Version>
+    <Authors>Ali Gubran</Authors>
+    <Company>Ali Gubran</Company>
+    <Description>A flexible, high-performance .NET library for importing Excel (.xlsx, .xls) and CSV files into DataTables or strongly-typed model lists.</Description>
+    <PackageProjectUrl>https://github.com/Ali-Gubran/ExcelImporter</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Ali-Gubran/ExcelImporter</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageTags>excel;importer;xlsx;xls;csv;datatable;closedxml;exceldatareader</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ClosedXML" Version="0.105.1" />
+    <PackageReference Include="ExcelDataReader" Version="3.9.0" />
+    <PackageReference Include="ExcelDataReader.DataSet" Version="3.9.0" />
+  </ItemGroup>
+
+</Project>
